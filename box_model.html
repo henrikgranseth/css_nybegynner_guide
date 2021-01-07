@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model🎁</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    |
+    <style>
+        main {
+            font-family: 'Source Sans Pro', sans-serif;
+
+            /* slik legger man til kommentar i css */
+
+            display: flex;
+            /* flex brukes til å plassere innhold */
+
+            flex-wrap: wrap;
+            /*flex-wrap brukes til å pakke innholdet der hvor
+            det er plass dyttes ting opp og der det ikke
+            er plass dyttes ting ned */
+
+            /* brukes for å sentrere innholdet */
+            flex: auto;
+            justify-content: center;
+
+            align-items: center;
+
+
+
+            margin: 50px;
+            padding: 100px;
+
+
+            background-color: rgb(10, 29, 49);
+            min-height: 500px;
+        }
+
+        div {
+
+
+            max-width: 300px;
+            min-width: 300px;
+
+            margin: 50px;
+            padding: 100px;
+            text-align: center;
+
+
+            border: rgba(12, 30, 80, 0.329) solid 15px;
+
+
+            background-color: rgb(62, 158, 187);
+
+        }
+
+        .tittel {
+
+            min-width: 90px;
+            min-height: 50px;
+
+            background-color: rgb(212, 88, 88);
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <div class="tittel" style="color:rgb(255, 255, 255)">
+            <h1>
+                CSS
+            </h1>
+            <h2 style="color:rgb(255, 255, 255)">
+
+                Noen CSS-tips for nybegynnere.
+            </h2>
+
+        </div>
+        <div>
+            <h2>Kommentar i HTML</h2>
+            <p>For å legge til en kommentar i HTML så må du skrive inn:
+                (krokkodille tegn) !-- "tekst" -- (krokkodille
+                tegn)
+            </p>
+
+        </div>
+
+        <div class="arthur">
+            <h2>Kommentar i CSS</h2>
+            <p>
+                For å kommentere i CSS så bruker man komandoen /**/.
+            </p>
+        </div>
+
+        <div>
+            <h2>Lenker</h2>
+            <p>For å legge til en lenke så kan du skrive en "A".
+                Hvis du bruker Visual Studio Code, så vil programmet
+                foreslå koden a href="LINK HER" etterfulgt av tittel til linken.
+            </p>
+            <a href=https://lmgtfy.app/?q=how+to+add+link+in+html&iie=1>Kilde</a>
+        </div>
+        <div class="terje">
+            <h2>P-tagg - Paragraph</h2>
+            <p> P-tag representerer et avsnitt(Paragraph) og brukes for mengdeteksten.
+
+            </p>
+            <p>
+                For å lage flere avsnitt, må man ha seperate P-tags. Dette gjør man ved å bruke P-taggen
+                i samme DIV.
+            </p>
+        </div>
+
+        <div class="disco">
+            <h2>H1 - Header tags</h2>
+            <p>H1-taggen er hovedtittelen på nettsiden. For å lage denne, skriver du bare "h1" under div.
+
+            </p>
+            <p>
+                Merk: Bruk bare en H1 per side. Ikke hopp over kursnivåer, start med h1, deretter h2 osv.
+            </p>
+        </div>
+
+        <div class=>
+            <h2>Bilder</h2>
+            <p> For å legge til bilder, så må du først sørge for at du har lagret bildet du ønsker å bruke i samme mappe
+                som du lagrer index.html-filen i. Deretter så skriver du "img". Programmet vil da foreslå en kode:
+
+            </p>
+            <P>
+                "img src="HER_SKRIVER_DU_RIKTIG_FILNAVN" alt="""</P>
+        </div>
+        <div>
+            <h2>Bakgrunnsfarge</h2>
+            <p>
+                Man endrer bakgrunnsfarge i CSS ved å skrive {background-color: lightblue;} i style.
+
+            </p>
+            <p>
+                Hvis du ønsker å bytte bakgrunnsfarge på en enkelt boks, så kan du gjøre dette ved å lage en class i
+                div'en og skrive inn koden nedenfor i style.
+            </p>
+            <p>
+                .(navnet på class) {background-color: lightblue;}
+            </p>
+        </div>
+        <div>
+            <h2>
+                Main
+            </h2>
+            <p>
+                Main kan endre på størrelse og plassering på objekter i dokumentet og påvirker alt i et dokument.
+                Man kan kun benytte seg av en main i et dokument.
+            </p>
+
+
+        </div>
+        <div>
+            <h2> HEX </h2>
+            <p>
+                For å bruke HEX-verdier, så skriver man f.eks backgroundcolor: # hex-verdien du ønsker.
+            </p>
+            <p>
+                F.eks: backgroundcolor: #000000 som er helt svart
+            </p>
+        </div>
+        <div>
+            <h2>
+                RGB
+            </h2>
+            <p>
+                Skriv RGB(212, 88, 88) (verdien til fargen i parantes)
+            </p>
+
+        </div>
+        <div>
+            <h2>
+                Flexbox
+            </h2>
+            <p>
+                Flexbox brukes til å plassere/feste layout og plassere innhold i "main"
+            </p>
+        </div>
+
+
+
+
+    </main>
+</body>
+
+</html>
